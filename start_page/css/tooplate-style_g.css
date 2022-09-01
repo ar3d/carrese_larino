@@ -387,6 +387,12 @@ footer {
 	margin-bottom: 0;
 }
 
+.img-logo-carro {
+	height: 100%;
+	dispay: block;
+	align-content: center;
+	margin-bottom: 0;
+}
 .img-logo_7 {
 	height: 135px;
 	display: block;
