@@ -393,6 +393,7 @@ footer {
 	align-content: center;
 	margin-bottom: 0;
 }
+
 .img-logo_7 {
 	height: 135px;
 	display: block;
@@ -410,8 +411,6 @@ footer {
 	height: 160px;
 	align-content: center;
 	
-}
-    
 }
 
 .background-img-logo-6 {
@@ -544,3 +543,4 @@ p:last-child {
     font-size: 2.2em;
   }
 }
+
