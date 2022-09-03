@@ -259,6 +259,14 @@ border-bottom-width: 0px;
 border-left-width: 0px;
 }
 
+.mappa4 {
+width: 100%;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+}
+
 /* Team */
 .tm-reverse-sm {
   flex-direction: row;
