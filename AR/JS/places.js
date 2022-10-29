@@ -101,7 +101,7 @@ function staticLoadPlaces() {
 			href: "../start_page/palazzo_ducale_g.html",
 			sfondo: "assets/sfondi/palazzo_ducale_G.jpg",
 			text: "Costruito dai Normanni come struttura difensiva, oggi si presenta come un palazzo signorile. Dumas nel romanzo “La Sanfelice” racconta della congiura ai danni del duca Francesco Carafa e dei successivi fatti di sangue ai quali la carrese di San Pardo fa da sfondo."
-        }
+        },
 		{
             name: "San Primiano e la Carrese di San Pardo",
             location: {
@@ -113,7 +113,7 @@ function staticLoadPlaces() {
 			href: "../start_page/san_primiano_g.html",
 			sfondo: "assets/sfondi/san_primiano_ricamo_G.jpg",
 			text: "La sera del 25 maggio cominciano i festeggiamenti in onore di San Pardo con il prelievo della statua del copatrono Primiano dalla cappella al centro del cimitero."
-        }
+        },
 		{
             name: "Santa Maria della Pietà e la Laudata di San Pardo",
             location: {
@@ -125,7 +125,7 @@ function staticLoadPlaces() {
 			href: "../start_page/santa_maria_del_piano_g.html",
 			sfondo: "assets/sfondi/cs_maria_p_G.jpg",
 			text: "“Ecco, Madonna mia, mo me presento, ti vengo oggi a laudà co suon’e canto.” Così i carrieri iniziavano il canto della Laudata davanti alla chiesa di Santa Maria, legata al culto di san Pardo per il fatto che qui la tradizione vuole sia stato deposto quando arrivò a Larino."
-        }
+        },
 		{
             name: "Verso la chiesa di Santa Maria della Pietà",
             location: {
@@ -137,7 +137,7 @@ function staticLoadPlaces() {
 			href: "../start_page/santo_stefano_g.html",
 			sfondo: "assets/sfondi/s_stefano_G.jpg",
 			text: "Siamo all'angolo di quella che oggi è piazza Vittorio Emanuele e che un tempo era lo stazio non edificato antistante il castello. Qui carri, uomini e buoi si radunano nei tre giorni per festeggiare e ringraziare il loro patrono."
-        }
+        },
 		{
             name: "Il primo Seminario dell'Occidente",
             location: {
@@ -149,7 +149,7 @@ function staticLoadPlaces() {
 			href: "../start_page/seminario_g.html",
 			sfondo: "assets/sfondi/seminario_G.jpg",
 			text: "Siamo nella parte più antica della Larino medievale, e il passaggio sotto l'arco dell'antico Seminario, il primo inaugurato dopo il Concilio di Trento, è uno dei punti che mette maggiormente alla prova il rapporto tra carrieri e animali."
-        }
+        },
     ];
 }
 
