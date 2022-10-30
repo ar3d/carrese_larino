@@ -123,7 +123,7 @@ function staticLoadPlaces() {
 			look: "[gps-camera]",
 			image: "assets/map-marker.png",
 			href: "../start_page/santa_maria_del_piano_g.html",
-			sfondo: "assets/sfondi/cs_maria_p_G.jpg",
+			sfondo: "assets/sfondi/s_maria_p_G.jpg",
 			text: "“Ecco, Madonna mia, mo me presento, ti vengo oggi a laudà co suon’e canto.” Così i carrieri iniziavano il canto della Laudata davanti alla chiesa di Santa Maria, legata al culto di san Pardo per il fatto che qui la tradizione vuole sia stato deposto quando arrivò a Larino."
         },
 		{
