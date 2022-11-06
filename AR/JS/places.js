@@ -150,6 +150,18 @@ function staticLoadPlaces() {
 			sfondo: "assets/sfondi/seminario_G.jpg",
 			text: "Siamo nella parte più antica della Larino medievale, e il passaggio sotto l'arco dell'antico Seminario, il primo inaugurato dopo il Concilio di Trento, è uno dei punti che mette maggiormente alla prova il rapporto tra carrieri e animali."
         },
+		{
+            name: "La costruzione della bellezza: la basilica di San Pardo",
+            location: {
+                lat: 41.800874, // change here latitude if using static data
+                lng: 14.910032, // change here longitude if using static data
+            },
+			look: "[gps-camera]",
+			image: "assets/map-marker.png",
+			href: "../start_page/cattedrale_g.html",
+			sfondo: "assets/sfondi/cattedrale_interno-G.jpg",
+			text: "“Colonna di chiesa è l’altar maggiore, dento ci siede il nostro protettore”.<br>Nei secoli la cattedrale si è arricchita di tesori d'arte che i vescovi hanno commissionato per testimoniare la fede di un intero popolo a Dio e al loro patrono."
+        },
     ];
 }
 
