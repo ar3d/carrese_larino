@@ -1,0 +1,200 @@
+#info6 {
+  width: 66px;
+  height: 66px;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+#info6 .icon_wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0);
+  opacity: .8;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+#info6 .icon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  transition: all .2s ease-in-out;
+}
+
+#info6 .icon_wrapper:hover {
+ border: 6px solid rgba(255,255,255,1)
+}
+
+#info6 .icon_wrapper:hover .icon {
+  border: 4px solid rgba(255,255,255,.5);
+}
+
+#info6 .inner_icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all .2s ease-in-out;
+}
+
+#info6 .closeIcon {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+
+#info6 .icon1 {
+  width: 4px;
+  height: 26px;
+  position: absolute;
+  top: 20px;
+  left: 31px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#info6 .icon2 {
+  width: 26px;
+  height: 4px;
+  position: absolute;
+  top: 31px;
+  left: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#info6 .tip, #info6 .content {
+  position: absolute;
+  left: 80px;
+  top: 0px;
+  width: 310px;
+
+  background-color: rgba(255,255,255,0.6);
+  color: black;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+#info6 .content {
+  padding: 0;
+}
+
+#info6 .content .content-form {
+  padding: 0 .5em;
+  margin-top: .5em;
+  width: 300px;
+}
+
+#info6 .tip {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform-origin: -2em 50%;
+  transform-origin: -2em 50%;
+  -webkit-transform: translate3d(0,0,0) rotate3d(1,1,1,30deg);
+  transform: translate3d(0,0,0) rotate3d(1,1,1,30deg);
+}
+
+#info6 .tip::before,
+#info6 .tip::after {
+  content: '';
+  position: absolute;
+  right: 99%; /* fix visible gap on Firefox */
+}
+
+#info6 .tip::before {
+  height: 100%;
+  width: 3em;
+}
+
+#info6 .tip::after {
+  width: 1.8em;
+  height: 1.8em;
+  top: 50%;
+  margin: -.9em 0 0;
+  background: no-repeat center center;
+  background-size: 100%;
+}
+
+#info6:hover .tip {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+  transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+  pointer-events: auto;
+}
+
+#info6.expanded {
+  z-index: 2;
+}
+
+#info6 .tip, #info6 .content, #info6.expanded:hover .tip {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#info6:hover .tip, #info6.expanded .content {
+  opacity: 1;
+  pointer-events: all;
+}
+
+#info6 .content {
+  transform: scaleY(0);
+  -webkit-transform: scaleY(0);
+  transition: transform 0.2s, opacity 0.2s;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+  transform-origin: top center;
+  -webkit-transform-origin: top center;
+}
+
+#info6.expanded .content {
+  transform: scaleY(1);
+  -webkit-transform: scaleY(1);
+}
+
+#info6 .content .content-form > * {
+  margin-bottom: 1em;
+}
+
+#info6 .content .image-wrapper {
+  padding: 5px
+}
+
+#info6 .content img {
+  width: 300px;
+}
+
+#info6 .content > *:last-child {
+  margin-bottom: 0;
+}
+
+#info6 .close {
+  cursor: pointer;
+}
+
+#info6 input {
+  width: 300px;
+  height: 30px;
+  padding: 8px;
+  background-color: rgba(255,255,255,0);
+  border: 1px solid #e5e5e5;
+}
+
+#info6 .button_wrapper {
+  width: 300px;
+  background-color: rgba(255,255,255,0);
+}
+
+#info6 button {
+  font-size: .8em;
+  padding: 1em;
+  background-color: rgba(0,0,0,0.4);
+  border: 2px solid rgba(0,0,0,0.4);
+  color: white;
+}
