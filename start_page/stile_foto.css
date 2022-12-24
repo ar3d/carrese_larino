@@ -35,8 +35,8 @@
 {
 	position: relative;
 	float: left;
-	width: 25%;
-	height: 25%;
+	width: 50%;
+	height: 50%;
 	overflow: hidden;
 }
 
@@ -110,6 +110,31 @@
 	-webkit-transition: all 1.2s ease;
 }
 .lightbox:target img
+{
+	top: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.lightbox video
+{
+	max-width: 90%;
+	max-height: 80%;
+	position: relative;
+	top: -100%;
+	/* Transition */
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+}
+
+.lightbox:target video
 {
 	top: 0;
 	top: 50%;
