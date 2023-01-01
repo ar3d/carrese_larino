@@ -25,7 +25,7 @@ controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
 
 // Create source.
 var source = Marzipano.ImageUrlSource.fromString(
-  "https://ar3d.github.io/vecchio_episcopio/media/{f}.jpg"
+  "https://ar3d.github.io/carrese_larino/vecchio_episcopio/media/{f}.jpg"
 );
 
 // Create geometry.
