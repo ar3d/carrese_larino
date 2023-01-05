@@ -33,6 +33,20 @@ h1 {
   transition: all 0.3s ease;
 }
 
+#tm-bg-fiori {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sfondi/fiori.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
 #tm-bg-beata_vergine {
   position: fixed;
   top: 0;
