@@ -25,7 +25,7 @@ controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
 
 // Create source.
 var source = Marzipano.ImageUrlSource.fromString(
-  "https://ar3d.github.io/carrese_larino/nuovo_episcopio/media/{f}.jpg"
+  "https://www.larinocultura.it//carrese_larino/nuovo_episcopio/media/{f}.jpg"
 );
 
 // Create geometry.

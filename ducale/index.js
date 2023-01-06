@@ -25,7 +25,7 @@ controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
 
 // Create source.
 var source = Marzipano.ImageUrlSource.fromString(
-  "https://ar3d.github.io/carrese_larino/ducale/ducale_2/{f}.jpg"
+  "https://www.larinocultura.it//carrese_larino/ducale/ducale_2/{f}.jpg"
 );
 
 // Create geometry.
